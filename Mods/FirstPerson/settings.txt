@@ -1,0 +1,23 @@
+# Flesh Made Fear - First Person mod settings
+# Format: key = value   (# or ; at line start = comment)
+
+# Key that toggles first/third person. UE4SS Key.* name, e.g. F G H TAB Q E R Z X C V B
+ToggleKey = F
+
+# Camera height above the pawn's origin, in cm. Raise if too low, lower if too high.
+EyeHeight = 90
+
+# Push the camera forward (out of the head) along your view, in cm. Raise if the head blocks the view.
+ForwardOffset = 45
+
+# Field of view in degrees.
+FieldOfView = 95
+
+# 1 = start in first person when the game loads, 0 = start in the game's normal (third-person) view.
+StartFirstPerson = 1
+
+# Keys that tilt the view up/down, 10 degrees per press (the game swallows the mouse's
+# vertical axis, so mouse-look is impossible). UE4SS Key.* names, e.g. PAGE_UP PAGE_DOWN
+# ARROW_UP ARROW_DOWN NUMPAD_EIGHT NUMPAD_TWO Q E
+PitchUpKey = PAGE_UP
+PitchDownKey = PAGE_DOWN
